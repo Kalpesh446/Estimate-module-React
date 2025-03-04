@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
+  // usestate
   const [sections, setSections] = useState([]);
   const [grandTotal, setGrandTotal] = useState(0);
 
